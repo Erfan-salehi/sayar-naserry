@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(171, 160, 217);
+}
+.container{
+    width: 950px;
+    height: 700px;
+    margin:250px auto;
+    position: relative;
+    box-shadow: 0 0 40px rgb(40,40,40);
+    border-radius: 10px 25px 10px 25px;
+    
+    
+}
+.erfani{
+    width: 100%;
+    overflow: hidden;
+        border-radius: 10px 25px 10px 25px;
+
+}
+.card{
+    width: 420px;
+    height: 700px;
+    position: absolute;
+    box-shadow: 0 0 40px rgb(40,40,40);
+    border-radius: 10px 25px 10px 25px;
+    top:-70px;
+    right: 0;  
+}
+
+.bio{
+    height: 650px;
+    width: 500px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-align: justify;
+    font-family: yegane;
+    font-size: 24px;
+    line-height: 1.9;
+}
+.card p{
+    padding: 16px;
+    margin-top:3px;
+    font-size: 24px;
+}
